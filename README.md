@@ -28,4 +28,14 @@ En concreto, es importante tener en cuenta el tipo de **rareza** de la carta:
 
 [![Hearthstone](https://cdn.mos.cms.futurecdn.net/rWmVewQjczBnK6a9McLYVV.jpg "Hearthstone")](https://th.bing.com/th/id/R.434d84e51170d6830035c2e7470c5767?rik=JdWTVIhEQyRzkA&pid=ImgRaw&r=0 "Hearthstone")
 
+#### Codigo
+##### Clase Carta 
+
+##### Clase ColeccionCarta
+Esta clase gestiona la coleccion personalizada de cartas por nombre, utilizando un **HashMap** donde la clave es el nombre de la carta y el valor es una lista de copias de esa carta. El objetivo principal es permitir agregar cartas siguiendo las reglas - parametros del juego  **Hearthstone** : un máximo de 1 carta legendaria y hasta 2 cartas comunes del mismo tipo (con el mismo nombre).
+
+Lo que hacemos es que al agregar una carta validamos su tipo (Legendaria o Comun) con esto controlamos que no pase el limite permitido de copias. Si esto es verdadero es decir si cumple con las condiciones, se añade a la coleccion y se muestra un mensaje de confirmacion. Tambien incluimos el metodo **verCartas()** que imprime todas las cartas registradas, junto con sus copias, mostrando su información detallada. 
+
+![Imagen 1](https://github.com/user-attachments/assets/b8f0c766-6ae5-45da-bf0c-860a1fe3d73c)
+![Imagen 2](https://github.com/user-attachments/assets/bf5f575f-0f43-4db3-8849-ad1de567a2ef)
 
