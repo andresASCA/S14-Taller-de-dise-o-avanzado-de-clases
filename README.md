@@ -11,7 +11,6 @@ En este taller vamos a desarrollar una colección de cartas personalizada para u
 
 - Nombre
 - Poder
-- Limite 
 - Descripción
 
 Tambien el programa deberá permitir al usuario indicar si existe un límite de copias por tipo de carta en su mazo y cuántas cartas tiene actualmente.
