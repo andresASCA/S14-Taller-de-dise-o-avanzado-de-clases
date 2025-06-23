@@ -22,7 +22,7 @@ Algo importante que debemos tener en cuenta es identificar los posibles errores 
 
 ##### Importante
 Lo que debemos saber para este ejercicio es que Hearthstone es un juego de cartas en el que cada mazo tiene ciertas reglas respecto a la cantidad de copias que se pueden incluir por carta.
-En concreto, es importante tener en cuenta el tipo de** rareza **de la carta:
+En concreto, es importante tener en cuenta el tipo de**rareza**de la carta:
 
 - Las cartas comunes (comunes, raras o épicas) pueden incluirse hasta en 2 copias por mazo.
 - Las cartas legendarias son especiales y solo se permite 1 copia por mazo.
