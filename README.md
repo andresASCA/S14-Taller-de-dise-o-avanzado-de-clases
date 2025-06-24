@@ -41,8 +41,10 @@ Lo que hacemos es que al agregar una carta validamos su tipo (Legendaria o Comun
 
 #### Ejecucion 
 Como usuario podra observar un menu en consola con las opciones las cuales puede utilizar. Las cuales son: 
-1.Agregar Carta 
-2.Ver cartas
+1. Agregar Carta 
+2. Ver cartas
 0. Salir
-<img width="238" alt="captura 3" src="https://github.com/user-attachments/assets/38677f45-a08e-481a-ab92-5e37d24db986" />
+
+<img width="238" alt="captura 3" src="https://github.com/user-attachments/assets/b0719c1e-cb00-403b-8cf5-d9d64d600e10" />
+
 
