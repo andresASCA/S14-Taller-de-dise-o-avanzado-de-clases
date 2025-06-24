@@ -44,7 +44,8 @@ Como usuario podra observar un menu en consola con las opciones las cuales puede
 1. Agregar Carta 
 2. Ver cartas
 0. Salir
-
 <img width="238" alt="captura 3" src="https://github.com/user-attachments/assets/b0719c1e-cb00-403b-8cf5-d9d64d600e10" />
 
+Cuando el usuario seleccione una de las tres opciones, por ejemplo en este caso, la opción 1 para Agregar carta, se desplegarán una serie de campos que deberá completar: Nombre, Tipo, Poder y Descripción. En esta primera captura se puede ver lo de ingresar los datos y verifica la condición de que no puede haber más de una copia de una carta de tipo legendaria.
 
+![Ejecucion 1](https://github.com/user-attachments/assets/638dbf69-7358-4e7d-aceb-db395c58fbdd)
