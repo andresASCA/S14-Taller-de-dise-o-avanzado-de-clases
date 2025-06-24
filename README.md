@@ -64,17 +64,3 @@ Tambien en estas capturas seguimos en la opción 1 verificando el parámetro de 
 
 <img width="410" alt="Ejecucion 2" src="https://github.com/user-attachments/assets/c51e8e44-61fa-4f43-9876-a3309114010e" />
 ![Ejecucion 2](https://github.com/user-attachments/assets/dbb7e03d-ae45-4cf0-a167-9e3533508d56)
-
-#### Ejecucion 
-Como usuario podra observar un menu en consola con las opciones las cuales puede utilizar. Las cuales son: 
-1. Agregar Carta 
-2. Ver cartas
-0. Salir
-<img width="238" alt="captura 3" src="https://github.com/user-attachments/assets/b0719c1e-cb00-403b-8cf5-d9d64d600e10" />
-
-Cuando el usuario seleccione una de las tres opciones, por ejemplo en este caso, la opción 1 para Agregar carta, se desplegarán una serie de campos que deberá completar: Nombre, Tipo, Poder y Descripción. En esta primera captura se puede ver lo de ingresar los datos y verifica la condición de que no puede haber más de una copia de una carta de tipo legendaria.
-
-![Ejecucion 1](https://github.com/user-attachments/assets/638dbf69-7358-4e7d-aceb-db395c58fbdd)
-
-Tambien en estas capturas seguimos en la opción 1 verificando el parámetro de que no debe haber más de una copia pero ahora del Tipo de carta Común.
-![caaptura 2](https://github.com/user-attachments/assets/aba0d8ec-451d-4950-8f86-a86a56d0ba79)
