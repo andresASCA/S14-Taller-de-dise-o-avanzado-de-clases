@@ -29,7 +29,17 @@ En concreto, es importante tener en cuenta el tipo de **rareza** de la carta:
 [![Hearthstone](https://cdn.mos.cms.futurecdn.net/rWmVewQjczBnK6a9McLYVV.jpg "Hearthstone")](https://th.bing.com/th/id/R.434d84e51170d6830035c2e7470c5767?rik=JdWTVIhEQyRzkA&pid=ImgRaw&r=0 "Hearthstone")
 
 #### Codigo
+##### Clase Main
+La clase **Main** contiene el método **main** que inicia el programa, mostrando un menú interactivo por consola donde el usuario puede agregar cartas o ver las cartas registradas en su colección. Se utiliza un objeto **Scanner** para leer la entrada del usuario y una instancia de **ColeccionCartas** para almacenar las cartas. Cuando se selecciona la opción "1", el programa solicita al usuario que ingrese los datos de una nueva carta (nombre, tipo, poder y descripción), validando que el nombre y la descripción solo contengan letras y espacios, que el tipo sea "común" o "legendaria", y que el poder sea un número entero no negativo. Si todos los datos son válidos, se crea un objeto **Carta** y se agrega a la colección. Si se elige la opción "2", se muestran todas las cartas almacenadas. La opción "0" finaliza el programa. También se manejan entradas inválidas para evitar errores al momento de ingresar datos.
+
+![MAIN 1](https://github.com/user-attachments/assets/461ab758-4395-4a79-8bea-965743e95cde)
+![MAIN 2](https://github.com/user-attachments/assets/87f2e33c-f680-4064-96bb-14c3ceb495c9)
+![MAIN 3](https://github.com/user-attachments/assets/42ef9df7-a6a6-4676-9679-aa48f2581397)
+
 ##### Clase Carta 
+La clase Carta cuenta con 4 atributos privados **Nombre**, **tipo**, **poder** y **descripcion** que almacenan respectivamente el nombre de la carta, su categoría como (Común o legendaria), un valor numérico que indica su poder y una breve descripción. Tiene un constructor que permite inicializar estos valores al crear una nueva carta y métodos públicos llamados getters (**getNombre**, **getTipo**, **getPoder**, **getDescripcion**) que permiten acceder a los atributos desde fuera de la clase. Además, sobrescribe el método **toString()** para mostrar la información de la carta en un formato legible, devolviendo una cadena con el nombre, tipo, poder y descripción, útil al imprimir el objeto. Esta clase es la base para modelar cartas en un sistema o juego que maneje una colección de cartas.
+
+![CARTA ](https://github.com/user-attachments/assets/d0d24ddd-a9e3-4d16-91c5-a55e597369a1)
 
 ##### Clase ColeccionCarta
 Esta clase gestiona la coleccion personalizada de cartas por nombre, utilizando un **HashMap** donde la clave es el nombre de la carta y el valor es una lista de copias de esa carta. El objetivo principal es permitir agregar cartas siguiendo las reglas - parametros del juego  **Hearthstone** : un máximo de 1 carta legendaria y hasta 2 cartas comunes del mismo tipo (con el mismo nombre).
