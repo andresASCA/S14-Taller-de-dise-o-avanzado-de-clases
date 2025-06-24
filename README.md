@@ -63,4 +63,6 @@ Cuando el usuario seleccione una de las tres opciones, por ejemplo en este caso,
 Tambien en estas capturas seguimos en la opción 1 verificando el parámetro de que no debe haber más de una copia pero ahora del Tipo de carta Común.
 
 <img width="410" alt="Ejecucion 2" src="https://github.com/user-attachments/assets/c51e8e44-61fa-4f43-9876-a3309114010e" />
+
+
 ![Ejecucion 2](https://github.com/user-attachments/assets/dbb7e03d-ae45-4cf0-a167-9e3533508d56)
