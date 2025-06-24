@@ -65,3 +65,29 @@ Tambien en estas capturas seguimos en la opción 1 verificando el parámetro de 
 ![Ejecucion 2](https://github.com/user-attachments/assets/dbb7e03d-ae45-4cf0-a167-9e3533508d56)
 
 <img width="410" alt="Ejecucion 2" src="https://github.com/user-attachments/assets/c51e8e44-61fa-4f43-9876-a3309114010e" />
+
+##### Opcion 2:
+Al seleccionar la opción 2 del menú, el programa muestra el listado actual de cartas en la colección. En la imagen, se visualiza que hay una carta llamada Cat, de tipo Legendaria, con 1 copia, poder 200 y descripción "Bota fuego". También se muestra otra carta llamada Carro, de tipo Común, con 2 copias, ambas con poder 100 y descripción "corre". Esto confirma que la colección agrupa las cartas por nombre, indica cuántas veces se repite cada una y detalla sus atributos, permitiendo al usuario llevar un control claro de las cartas registradas.
+![OPCION 2](https://github.com/user-attachments/assets/cc7e5d54-9341-4e3a-ac5f-e22492e024b6)
+##### Opcion 3:
+La opción 3 permite salir del programa, finalizando la ejecución del menú interactivo.
+##### Restricciones del sistema:
+1. Solo se permite **una carta legendaria con el mismo nombre**, si se intenta agregar otra igual, el sistema lo bloquea con un mensaje.<br>
+
+2. Solo se permiten **hasta dos cartas comunes con el mismo nombre**, al intentar ingresar una tercera, aparece una advertencia que lo impide.<br>
+
+3. El **nombre** de la carta debe contener únicamente letras y espacios, no se aceptan números ni símbolos especiales.<br>
+
+4. La **descripción** también debe estar compuesta solo por letras y espacios.<br>
+
+5. El **tipo** de carta debe ser exactamente “comun” o “legendaria”, sin errores ortográficos.<br>
+
+6. El **poder** debe ser un número entero **mayor o igual a cero**, no se permiten valores negativos ni entradas no numéricas.<br>
+
+
+
+
+
+
+
+
